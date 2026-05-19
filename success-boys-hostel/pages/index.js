@@ -78,7 +78,7 @@ export default function Home() {
       </Head>
 
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[55vh] md:min-h-[50vh] flex items-center justify-center overflow-hidden px-4 py-10 md:py-0">
         {/* Background image */}
         <div className="absolute inset-0 bg-black/50">
           <Image
@@ -195,7 +195,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Left: image */}
             <div className="reveal relative">
-              <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-card-hover">
+              <div className="relative h-[250px] sm:h-[350px] md:h-[500px] rounded-3xl overflow-hidden shadow-card-hover">
                 <Image
                   src="/room/outdoor.jpg"
                   alt="Why choose Success Boys Hostel"
