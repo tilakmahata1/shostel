@@ -197,7 +197,7 @@ export default function Home() {
             <div className="reveal relative">
               <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-card-hover">
                 <Image
-                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+                  src="/room/outdoor.jpg"
                   alt="Why choose Success Boys Hostel"
                   fill
                   className="object-cover"
@@ -205,8 +205,8 @@ export default function Home() {
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-6 -right-6 bg-green-600 text-white rounded-2xl p-5 shadow-green">
-                <p className="font-display font-bold text-3xl">NPR 4,000</p>
-                <p className="font-body text-green-200 text-sm">Starting from / month</p>
+                {/* <p className="font-display font-bold text-3xl">NPR 4,0</p>
+                <p className="font-body text-green-200 text-sm">Starting from / month</p> */}
               </div>
             </div>
 
@@ -265,7 +265,7 @@ export default function Home() {
       </section>
 
       {/* ── GALLERY PREVIEW ── */}
-      <section className="section-padding bg-white">
+      {/* <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="text-center mb-14 reveal">
             <span className="green-badge mb-4 inline-block">Gallery</span>
@@ -312,7 +312,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── LOCATION ── */}
       <section className="section-padding bg-cream">

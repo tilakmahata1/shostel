@@ -1,13 +1,13 @@
 // Shared data for the hostel website
 
+
 export const rooms = [
   {
     id: 1,
     type: '2-Bed Shared Dorm',
-    image: 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80',
+    image: '/room/room2.jpg',
     description: 'Cozy 2-bed room perfect for students who want semi-private space. Great for study buddies from the same college.',
-    priceMonthly: 7500,
-    priceNightly: 350,
+    
     beds: 2,
     available: true,
     badge: 'Popular',
@@ -17,10 +17,9 @@ export const rooms = [
   {
     id: 2,
     type: '4-Bed Shared Dorm',
-    image: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80',
+    image: '/room/room3.jpg',
     description: 'Our most affordable option — ideal for budget-conscious students. Meet friends from across Nepal in this vibrant shared room.',
-    priceMonthly: 5500,
-    priceNightly: 250,
+    
     beds: 4,
     available: true,
     badge: 'Best Value',
@@ -29,12 +28,11 @@ export const rooms = [
   },
   {
     id: 3,
-    type: '6-Bed Shared Dorm',
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    type: '3-Bed Shared Dorm',
+    image: '/room/3room.jpg',
     description: 'Our most economical option for students on a tight budget. Clean, comfortable, and full of energy with fellow students.',
-    priceMonthly: 4000,
-    priceNightly: 200,
-    beds: 6,
+    
+    beds: 3,
     available: true,
     badge: null,
     amenities: ['WiFi', 'Locker', 'Fan', 'Power Outlets', 'Shared Bathroom', 'Common Area'],
@@ -43,12 +41,11 @@ export const rooms = [
   {
     id: 4,
     type: 'Private Single Room',
-    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80',
+    image: '/room/room1.jpg',
     description: 'Your own private space in the hostel. Perfect for students who need quiet study time or prefer privacy.',
-    priceMonthly: 10000,
-    priceNightly: 500,
+    
     beds: 1,
-    available: false,
+    available: true,
     badge: 'Premium',
     amenities: ['WiFi', 'Study Desk', 'Wardrobe', 'Attached Bath', 'AC/Heater', 'Mini Shelf'],
     details: 'A fully private room with your own attached bathroom. Includes a spacious study desk, wardrobe, and maximum privacy. Currently full — join the waitlist.',
@@ -236,6 +233,8 @@ export const galleryImages = [
     category: 'rooms',
     caption: 'Private Single Room',
   },
+
+
   {
     id: 11,
     src: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',

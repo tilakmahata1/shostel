@@ -6,19 +6,19 @@ import PageHero from '../components/PageHero'
 
 const roomOptions = [
   {
-    label: '6-Bed Shared Dorm (NPR 4,000/month)',
-    value: '6-Bed Shared Dorm',
-  },
-  {
-    label: '4-Bed Shared Dorm (NPR 5,500/month)',
+    label: '4-Bed Shared Dorm ',
     value: '4-Bed Shared Dorm',
   },
   {
-    label: '2-Bed Shared Dorm (NPR 7,500/month)',
+    label: '3-Bed Shared Dorm ',
+    value: '3-Bed Shared Dorm',
+  },
+  {
+    label: '2-Bed Shared Dorm ',
     value: '2-Bed Shared Dorm',
   },
   {
-    label: 'Private Single Room (NPR 10,000/month)',
+    label: 'Private Single Room ',
     value: 'Private Single Room',
   },
   {
@@ -168,22 +168,22 @@ export default function Contact() {
         <div className="container-custom">
           <div className="flex flex-wrap justify-center gap-x-10 gap-y-3">
             <a
-              href="tel:+977-9841-XXXXXX"
+              href="tel:+977-9825487923"
               className="flex items-center gap-2 text-white font-body font-semibold text-sm hover:text-green-200 transition-colors"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              +977-9841-XXXXXX
+              +977-9825487923
             </a>
             <a
-              href="mailto:info@successboyshostel.com.np"
+              href="mailto:successhomeboyshostel@gmail.com"
               className="flex items-center gap-2 text-white font-body font-semibold text-sm hover:text-green-200 transition-colors"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              info@successboyshostel.com.np
+              successhomeboyshostel@gmail.com
             </a>
             <a
               href="https://www.facebook.com/share/p/14arE9KLiJH/"
@@ -283,7 +283,7 @@ export default function Contact() {
                           name="phone"
                           value={form.phone}
                           onChange={handleChange}
-                          placeholder="e.g. 9841XXXXXX"
+                          placeholder="e.g. 9825487923"
                           className={inputClass('phone')}
                           data-error={!!errors.phone}
                         />
@@ -426,8 +426,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold text-green-900 font-body text-sm">Phone</p>
-                      <a href="tel:+977-9841-XXXXXX" className="text-green-600 font-body text-sm hover:underline block mt-0.5">+977-9841-XXXXXX</a>
-                      <a href="tel:+977-01-XXXXXXX" className="text-green-600 font-body text-sm hover:underline block">+977-01-XXXXXXX</a>
+                      <a href="tel:+977-9825487923" className="text-green-600 font-body text-sm hover:underline block mt-0.5">+977-9825487923</a>
+                      <a href="tel:+977-9863645825" className="text-green-600 font-body text-sm hover:underline block">+977-9863645825  </a>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -438,8 +438,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold text-green-900 font-body text-sm">Email</p>
-                      <a href="mailto:info@successboyshostel.com.np" className="text-green-600 font-body text-sm hover:underline block mt-0.5">
-                        info@successboyshostel.com.np
+                      <a href="mailto:successhomeboys@gmail.com" className="text-green-600 font-body text-sm hover:underline block mt-0.5">
+                        successhomeboys@gmail.com
                       </a>
                     </div>
                   </li>

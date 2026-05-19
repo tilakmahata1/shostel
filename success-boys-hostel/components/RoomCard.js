@@ -54,7 +54,7 @@ export default function RoomCard({ room }) {
             <p className="text-earth text-xs font-body mt-0.5">{beds} bed{beds > 1 ? 's' : ''} per room</p>
           </div>
           <div className="text-right">
-            <p className="font-display font-bold text-green-700 text-lg">NPR {priceMonthly.toLocaleString()}</p>
+            {/* <p className="font-display font-bold text-green-700 text-lg">NPR {priceMonthly.toLocaleString()}</p> */}
             <p className="text-earth text-xs font-body">/month</p>
           </div>
         </div>

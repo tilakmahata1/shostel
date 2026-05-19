@@ -94,7 +94,7 @@ export default function Facilities() {
             </div>
             <div className="reveal relative h-80 md:h-96 rounded-3xl overflow-hidden shadow-card-hover">
               <Image
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+                src="/kitchen.jpg"
                 alt="Hostel kitchen"
                 fill
                 className="object-cover"
@@ -110,7 +110,7 @@ export default function Facilities() {
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <div className="reveal relative h-80 md:h-96 rounded-3xl overflow-hidden shadow-card-hover order-2 lg:order-1">
               <Image
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+                src="/room/outdoor.jpg"
                 alt="Study room"
                 fill
                 className="object-cover"

@@ -14,7 +14,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-green-950 text-white  ">
+    <footer className="bg-green-950 text-white ">  
       {/* Main footer */}
       <div className="container-custom py-16 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -156,7 +156,7 @@ export default function Footer() {
       <div className="border-t border-green-800">
         <div className="container-custom py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-green-400 text-sm font-body text-center sm:text-left">
-            © {currentYear} Success Boys Hostel. All rights reserved. Made with ♥ for Nepali students.
+            © {currentYear} Success Boys Hostel. All rights reserved.
           </p>
           <p className="text-green-500 text-xs font-body">
             Dillibazar, Kathmandu, Nepal

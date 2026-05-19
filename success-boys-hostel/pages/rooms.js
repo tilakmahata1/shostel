@@ -90,7 +90,7 @@ export default function Rooms() {
       <PageHero
         title="Our Rooms"
         subtitle="From budget-friendly dorms to private rooms — comfortable, clean, and designed for student life."
-        image="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1400&q=80"
+        image="/outdoor.jpg"
         breadcrumb="Rooms"
       />
 
@@ -146,8 +146,8 @@ export default function Rooms() {
                       <p className="text-earth font-body text-sm mt-0.5">{room.beds} bed{room.beds > 1 ? 's' : ''} per room</p>
                     </div>
                     <div className="text-right">
-                      <p className="font-display font-bold text-green-700 text-xl">NPR {room.priceMonthly.toLocaleString()}</p>
-                      <p className="text-earth text-xs font-body">/month</p>
+                      {/* <p className="font-display font-bold text-green-700 text-xl">NPR {room.priceMonthly.toLocaleString()}</p>
+                      <p className="text-earth text-xs font-body">/month</p> */}
                     </div>
                   </div>
 

@@ -4,13 +4,14 @@ import { useRouter } from 'next/router'
 
 
 
+
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/rooms', label: 'Rooms' },
   { href: '/facilities', label: 'Facilities' },
   // { href: '/prices', label: 'Prices' },
-  { href: '/gallery', label: 'Gallery' },
+  // { href: '/gallery', label: 'Gallery' },
   { href: '/contact', label: 'Contact' },
 ]
 
@@ -55,27 +56,35 @@ export default function Navbar() {
       >
         <div className="container-custom flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-gradient-green rounded-xl flex items-center justify-center shadow-green group-hover:scale-105 transition-transform">
-              <span className="text-white text-xl font-display font-bold">S</span>
-            </div>
-            <div className="leading-tight">
-              <span
-                className={`font-display font-bold text-lg leading-none block transition-colors ${
-                  scrolled ? 'text-green-800' : 'text-white drop-shadow'
-                }`}
-              >
-                Success Boys
-              </span>
-              <span
-                className={`text-xs font-body font-medium tracking-widest uppercase transition-colors ${
-                  scrolled ? 'text-green-600' : 'text-green-200'
-                }`}
-              >
-                Hostel
-              </span>
-            </div>
-          </Link>
+  <Link href="/" className="flex items-center gap-2 group">
+  
+  <div className="w-10 h-10 rounded-xl overflow-hidden shadow-green group-hover:scale-105 transition-transform">
+    <img
+      src="/room/logo2.png"
+      alt="Success Boys Hostel Logo"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  <div className="leading-tight">
+    <span
+      className={`font-display font-bold text-lg leading-none block transition-colors ${
+        scrolled ? "text-green-800" : "text-white drop-shadow"
+      }`}
+    >
+      Success Boys
+    </span>
+
+    <span
+      className={`text-xs font-body font-medium tracking-widest uppercase transition-colors ${
+        scrolled ? "text-green-600" : "text-green-200"
+      }`}
+    >
+      Hostel
+    </span>
+  </div>
+
+</Link>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1">
@@ -138,7 +147,11 @@ export default function Navbar() {
             <div className="p-6 border-b border-green-100 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className="w-9 h-9 bg-gradient-green rounded-xl flex items-center justify-center">
-                  <span className="text-white text-lg font-display font-bold">S</span>
+                   <img
+      src="/room/logo2.png"
+      alt="Success Boys Hostel Logo"
+      className="w-full h-full object-cover"
+    />
                 </div>
                 <div>
                   <span className="font-display font-bold text-green-800 block text-base leading-none">Success Boys</span>

@@ -113,7 +113,7 @@ export default function About() {
               <div className="relative">
                 <div className="relative h-[480px] rounded-3xl overflow-hidden shadow-card-hover">
                   <Image
-                    src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80"
+                    src="/outdoor2.jpg"
                     alt="Students studying at Success Boys Hostel"
                     fill
                     sizes='100vw'
