@@ -272,7 +272,7 @@ export default function Contact() {
                           name="fullName"
                           value={form.fullName}
                           onChange={handleChange}
-                          placeholder="e.g. Roshan Thapa"
+                          placeholder="e.g. your name"
                           className={inputClass('fullName')}
                           data-error={!!errors.fullName}
                         />
@@ -283,7 +283,7 @@ export default function Contact() {
                           name="phone"
                           value={form.phone}
                           onChange={handleChange}
-                          placeholder="e.g. 9825487923"
+                          placeholder="e.g. 98XXXXXXXX"
                           className={inputClass('phone')}
                           data-error={!!errors.phone}
                         />
