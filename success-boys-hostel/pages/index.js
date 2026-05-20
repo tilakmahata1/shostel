@@ -78,86 +78,118 @@ export default function Home() {
       </Head>
 
       {/* ── HERO ── */}
-      <section className="relative min-h-[55vh] md:min-h-[50vh] flex items-center justify-center overflow-hidden px-4 py-10 md:py-0">
-        {/* Background image */}
-        <div className="absolute inset-0 bg-black/50">
-          <Image
-            src="/fronthostel.jpg"
-            alt="Success Boys Hostel"
-            fill
-            priority
-            className="object-cover"
+   <section className="relative min-h-[65vh] sm:min-h-[70vh] md:min-h-[80vh] flex items-center justify-center overflow-hidden px-4 py-8 sm:py-10 md:py-0">
+  
+  {/* Background image */}
+  <div className="absolute inset-0">
+    <Image
+      src="/fronthostel.jpg"
+      alt="Success Boys Hostel"
+      fill
+      priority
+      className="object-cover"
+    />
+    <div className="absolute inset-0 bg-black/60" />
+    <div className="absolute inset-0 bg-gradient-to-br from-black/90 via-emerald-900/50 to-black/50" />
+  </div>
+
+  {/* Decorative blur circles */}
+  <div className="absolute top-10 right-0 sm:right-10 w-40 sm:w-64 h-40 sm:h-64 bg-green-400/10 rounded-full blur-3xl" />
+  <div className="absolute bottom-10 left-0 sm:left-10 w-32 sm:w-48 h-32 sm:h-48 bg-green-300/10 rounded-full blur-2xl" />
+
+  {/* Hero content */}
+  <div className="relative z-30 container-custom text-center pt-20 sm:pt-24 md:pt-28 pb-10 sm:pb-14 md:pb-16">
+
+    {/* Badge */}
+    <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-400/30 text-green-200 px-3 sm:px-4 py-1.5 rounded-full text-xs sm:text-sm font-body font-medium mb-5 sm:mb-8 backdrop-blur-sm">
+      <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
+      Accepting Students for 2082/2083 BS
+    </div>
+
+    {/* Heading */}
+    <h1 className="font-display text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+      Your Home Away
+      <br />
+      <span className="text-green-300">From Home</span>
+      <br />
+      in Kathmandu
+    </h1>
+
+    {/* Description */}
+    <p className="text-green-100 text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed font-body px-2">
+      Safe, clean, and affordable student accommodation in Dillibazar — the heart of Kathmandu.
+      Join 100+ students from across Nepal who call Success Boys Hostel their study home.
+    </p>
+
+    {/* Buttons */}
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+      <BookingButton label="Book Now" size="lg" />
+
+      <Link
+        href="/rooms"
+        className="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/30 text-white hover:bg-white/20 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base lg:text-lg transition-all backdrop-blur-sm font-body w-full sm:w-auto"
+      >
+        View Rooms
+
+        <svg
+          className="w-4 h-4 sm:w-5 sm:h-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/95 via-emerald-900/60 to-black/40" />
-        </div>
+        </svg>
+      </Link>
+    </div>
 
-        {/* Decorative elements */}
-        <div className="absolute top-1/4 right-10 w-64 h-64 bg-green-400/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-10 w-48 h-48 bg-green-300/10 rounded-full blur-2xl" />
-
-        {/* Hero content */}
-        <div className="relative z-30 container-custom text-center pt-24 pb-16">
-          <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-400/30 text-green-200 px-4 py-1.5 rounded-full text-sm font-body font-medium mb-8 backdrop-blur-sm">
-            <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-            Accepting Students for 2082/2083 BS
-          </div>
-
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Your Home Away<br />
-            <span className="text-green-300">From Home</span><br />
-            in Kathmandu
-          </h1>
-
-          <p className="text-green-100 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-body">
-            Safe, clean, and affordable student accommodation in Dillibazar — the heart of Kathmandu.
-            Join 100+ students from across Nepal who call Success Boys Hostel their study home.
+    {/* Stats */}
+    <div className="mt-10 sm:mt-14 md:mt-16 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto">
+      {[
+        { num: "100+", label: "Happy Students" },
+        { num: "5+", label: "Years Running" },
+        { num: "4.9★", label: "Average Rating" },
+      ].map((stat) => (
+        <div
+          key={stat.label}
+          className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20"
+        >
+          <p className="font-display font-bold text-white text-xl sm:text-2xl">
+            {stat.num}
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <BookingButton label="Book Now" size="lg" />
-            <Link
-              href="/rooms"
-              className="inline-flex items-center gap-2 bg-white/10 border border-white/30 text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all backdrop-blur-sm font-body"
-            >
-              View Rooms
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </Link>
-          </div>
-
-          {/* Stats bar */}
-          <div className="mt-16 grid grid-cols-3 gap-4 max-w-lg mx-auto">
-            {[
-              { num: '100+', label: 'Happy Students' },
-              { num: '5+', label: 'Years Running' },
-              { num: '4.9★', label: 'Average Rating' },
-            ].map((stat) => (
-              <div key={stat.label} className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20">
-                <p className="font-display font-bold text-white text-2xl">{stat.num}</p>
-                <p className="text-green-200 text-xs font-body mt-0.5">{stat.label}</p>
-              </div>
-            ))}
-          </div>
+          <p className="text-green-200 text-xs sm:text-sm font-body mt-1">
+            {stat.label}
+          </p>
         </div>
+      ))}
+    </div>
+  </div>
+</section>
 
-        {/* Scroll indicator */}
-       
-      </section>
+{/* ── HIGHLIGHTS BAR ── */}
+<section className="bg-green-600 py-4 sm:py-5">
+  <div className="container-custom">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      {highlights.map((h) => (
+        <div
+          key={h.label}
+          className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 text-white font-body"
+        >
+          <span className="text-lg sm:text-xl">{h.icon}</span>
 
-      {/* ── HIGHLIGHTS BAR ── */}
-      <section className="bg-green-600 py-5">
-        <div className="container-custom">
-          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-            {highlights.map((h) => (
-              <div key={h.label} className="flex items-center gap-2 text-white font-body">
-                <span className="text-xl">{h.icon}</span>
-                <span className="font-semibold text-sm tracking-wide">{h.label}</span>
-              </div>
-            ))}
-          </div>
+          <span className="font-semibold text-xs sm:text-sm tracking-wide">
+            {h.label}
+          </span>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* ── FEATURED ROOMS ── */}
       <section className="section-padding bg-cream">
@@ -367,7 +399,7 @@ export default function Home() {
                 <div className="card p-5">
                   <span className="text-2xl block mb-2">📞</span>
                   <h5 className="font-display font-semibold text-green-900 text-sm mb-1">Call Us</h5>
-                  <p className="text-earth text-xs font-body">+977-9841-XXXXXX<br />+977-01-XXXXXXX</p>
+                  <p className="text-earth text-xs font-body">+977-9825487923<br />+977-9825487923</p>
                 </div>
               </div>
 
