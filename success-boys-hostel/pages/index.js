@@ -118,7 +118,7 @@ export default function Home() {
     {/* Description */}
     <p className="text-green-100 text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed font-body px-2">
       Safe, clean, and affordable student accommodation in Dillibazar — the heart of Kathmandu.
-      Join 100+ students from across Nepal who call Success Boys Hostel their study home.
+      Join 1000+ students from across Nepal who call Success Boys Hostel their study home.
     </p>
 
     {/* Buttons */}
@@ -150,8 +150,8 @@ export default function Home() {
     {/* Stats */}
     <div className="mt-10 sm:mt-14 md:mt-16 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto">
       {[
-        { num: "100+", label: "Happy Students" },
-        { num: "5+", label: "Years Running" },
+        { num: "1000+", label: "Happy Students" },
+        { num: "10+", label: "Years Running" },
         { num: "4.9★", label: "Average Rating" },
       ].map((stat) => (
         <div
