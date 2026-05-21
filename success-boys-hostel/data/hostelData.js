@@ -2,10 +2,25 @@
 
 
 export const rooms = [
+
   {
     id: 1,
+    type: 'Private Single Room',
+    image: '/room/singleroom.jpeg',
+    description: 'Your own private space in the hostel. Perfect for students who need quiet study time or prefer privacy.',
+    
+    beds: 1,
+    available: true,
+    badge: 'Premium',
+    amenities: ['WiFi', 'Study Desk', 'Wardrobe', 'Attached Bath', 'AC/Heater', 'Mini Shelf'],
+    details: 'A fully private room with your own attached bathroom. Includes a spacious study desk, wardrobe, and maximum privacy. Currently full — join the waitlist.',
+  },
+  
+  
+  {
+    id: 2,
     type: '2-Bed Shared Dorm',
-    image: '/room/room2.jpg',
+    image: '/room/doubleroom.jpeg',
     description: 'Cozy 2-bed room perfect for students who want semi-private space. Great for study buddies from the same college.',
     
     beds: 2,
@@ -15,21 +30,9 @@ export const rooms = [
     details: 'Each bed comes with a quality mattress, pillow, and bedding. Separate study desk and wardrobe for each resident. Good natural lighting and ventilation.',
   },
   {
-    id: 2,
-    type: '4-Bed Shared Dorm',
-    image: '/room/room3.jpg',
-    description: 'Our most affordable option — ideal for budget-conscious students. Meet friends from across Nepal in this vibrant shared room.',
-    
-    beds: 4,
-    available: true,
-    badge: 'Best Value',
-    amenities: ['WiFi', 'Study Desk', 'Locker', 'Fan', 'Power Outlets', 'Shared Bathroom'],
-    details: 'A lively room with 4 beds, personal lockers for valuables, and shared bathroom access. Great community feel with fellow students.',
-  },
-  {
     id: 3,
     type: '3-Bed Shared Dorm',
-    image: '/room/3room.jpg',
+    image: '/room/tripleroom.jpeg',
     description: 'Our most economical option for students on a tight budget. Clean, comfortable, and full of energy with fellow students.',
     
     beds: 3,
@@ -40,16 +43,18 @@ export const rooms = [
   },
   {
     id: 4,
-    type: 'Private Single Room',
-    image: '/room/room1.jpg',
-    description: 'Your own private space in the hostel. Perfect for students who need quiet study time or prefer privacy.',
+    type: '4-Bed Shared Dorm',
+    image: '/room/room3.jpg',
+    description: 'Our most affordable option — ideal for budget-conscious students. Meet friends from across Nepal in this vibrant shared room.',
     
-    beds: 1,
+    beds: 4,
     available: true,
-    badge: 'Premium',
-    amenities: ['WiFi', 'Study Desk', 'Wardrobe', 'Attached Bath', 'AC/Heater', 'Mini Shelf'],
-    details: 'A fully private room with your own attached bathroom. Includes a spacious study desk, wardrobe, and maximum privacy. Currently full — join the waitlist.',
+    badge: 'Best Value',
+    amenities: ['WiFi', 'Study Desk', 'Locker', 'Fan', 'Power Outlets', 'Shared Bathroom'],
+    details: 'A lively room with 4 beds, personal lockers for valuables, and shared bathroom access. Great community feel with fellow students.',
   },
+  
+  
 ]
 
 export const testimonials = [
