@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import Layout from '../components/Layout'
 import PageHero from '../components/PageHero'
+import { FaWhatsapp } from "react-icons/fa";
 
 const roomOptions = [
   {
@@ -185,6 +186,17 @@ export default function Contact() {
               </svg>
               successhomeboyshostel@gmail.com
             </a>
+           
+
+<a
+  href="https://wa.me/9863645825"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 text-white font-body font-semibold text-sm hover:text-green-200 transition-colors"
+>
+  <FaWhatsapp size={18} />
+  WhatsApp
+</a>
             <a
               href="https://www.facebook.com/share/p/14arE9KLiJH/"
               target="_blank"
@@ -364,7 +376,7 @@ export default function Contact() {
 
                     {/* Terms note */}
                     <p className="text-earth text-xs font-body leading-relaxed">
-                      By submitting this form, you agree to be contacted by Success Boys Hostel regarding your inquiry. We respect your privacy and will never share your details with third parties.
+                      By submitting this form, you agree to be contacted by Success Home Boys Hostel regarding your inquiry. We respect your privacy and will never share your details with third parties.
                     </p>
 
                     {/* Submit */}
@@ -412,7 +424,7 @@ export default function Contact() {
                     <div>
                       <p className="font-semibold text-green-900 font-body text-sm">Address</p>
                       <p className="text-earth font-body text-sm leading-relaxed mt-0.5">
-                        Success Boys Hostel<br />
+                        Success Home Boys Hostel<br />
                         Dillibazar, Kathmandu<br />
                         Bagmati Province, Nepal
                       </p>
@@ -427,7 +439,14 @@ export default function Contact() {
                     <div>
                       <p className="font-semibold text-green-900 font-body text-sm">Phone</p>
                       <a href="tel:+977-9825487923" className="text-green-600 font-body text-sm hover:underline block mt-0.5">+977-9825487923</a>
-                      <a href="tel:+977-9863645825" className="text-green-600 font-body text-sm hover:underline block">+977-9863645825  </a>
+                      <a href="tel:+977-9851001971" className="text-green-600 font-body text-sm hover:underline block">+977-9851001971  </a>
+                      <a
+    href="tel:+977-9863645825"
+    className="text-green-600 font-body text-sm hover:underline block mt-1"
+  >
+    +977-9863645825
+  </a>
+  
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -443,6 +462,33 @@ export default function Contact() {
                       </a>
                     </div>
                   </li>
+                  <li className="flex items-start gap-4">
+  <div className="w-11 h-11 bg-green-100 rounded-xl flex items-center justify-center shrink-0">
+    {/* WhatsApp Icon */}
+    <svg
+      className="w-5 h-5 text-green-600"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path d="M20.52 3.48A11.82 11.82 0 0012.06 0C5.5 0 .18 5.32.18 11.88c0 2.1.55 4.16 1.6 5.98L0 24l6.32-1.65a11.9 11.9 0 005.74 1.46h.01c6.56 0 11.88-5.32 11.88-11.88 0-3.17-1.23-6.15-3.43-8.45zM12.07 21.7a9.8 9.8 0 01-5-1.37l-.36-.21-3.75.98 1-3.65-.24-.38a9.76 9.76 0 01-1.5-5.2c0-5.4 4.4-9.8 9.81-9.8 2.62 0 5.08 1.02 6.93 2.87a9.73 9.73 0 012.87 6.93c0 5.41-4.4 9.81-9.8 9.81zm5.38-7.35c-.3-.15-1.76-.87-2.03-.97-.27-.1-.46-.15-.66.15-.2.3-.76.97-.93 1.16-.17.2-.34.22-.63.08-.3-.15-1.24-.46-2.36-1.47-.87-.78-1.46-1.74-1.63-2.03-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.51.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.9-2.2-.24-.58-.48-.5-.66-.5h-.56c-.2 0-.5.08-.76.38-.27.3-1.03 1-1.03 2.43 0 1.43 1.05 2.82 1.2 3.02.15.2 2.06 3.14 5 4.4.7.3 1.25.48 1.67.61.7.22 1.33.19 1.83.11.56-.08 1.76-.72 2-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.56-.35z" />
+    </svg>
+  </div>
+
+  <div>
+    <p className="font-semibold text-green-900 font-body text-sm">
+      WhatsApp
+    </p>
+
+    <a
+      href="https://wa.me/9779825487923"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-green-600 font-body text-sm hover:underline block mt-0.5"
+    >
+      Chat on WhatsApp →
+    </a>
+  </div>
+</li>
                   <li className="flex items-start gap-4">
                     <div className="w-11 h-11 bg-blue-100 rounded-xl flex items-center justify-center shrink-0">
                       <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
@@ -462,6 +508,7 @@ export default function Contact() {
                       <p className="text-earth text-xs font-body mt-0.5">Message us for quick replies!</p>
                     </div>
                   </li>
+
                 </ul>
               </div>
 
@@ -528,7 +575,7 @@ export default function Contact() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Success Boys Hostel - Dillibazar, Kathmandu"
+              title="Success Home Boys Hostel - Dillibazar, Kathmandu"
             />
           </div>
 

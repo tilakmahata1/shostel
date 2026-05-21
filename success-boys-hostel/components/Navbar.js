@@ -61,7 +61,7 @@ export default function Navbar() {
   <div className="w-10 h-10 rounded-xl overflow-hidden shadow-green group-hover:scale-105 transition-transform">
     <img
       src="/room/logo2.png"
-      alt="Success Boys Hostel Logo"
+      alt="Success Home Boys Hostel Logo"
       className="w-full h-full object-cover"
     />
   </div>
@@ -72,7 +72,7 @@ export default function Navbar() {
         scrolled ? "text-green-800" : "text-white drop-shadow"
       }`}
     >
-      Success Boys
+      Success Home Boys Hostel
     </span>
 
     <span
@@ -149,12 +149,13 @@ export default function Navbar() {
                 <div className="w-9 h-9 bg-gradient-green rounded-xl flex items-center justify-center">
                    <img
       src="/room/logo2.png"
-      alt="Success Boys Hostel Logo"
+      alt="Success Home  Boys Hostel Logo"
       className="w-full h-full object-cover"
     />
                 </div>
                 <div>
-                  <span className="font-display font-bold text-green-800 block text-base leading-none">Success Boys</span>
+                  <span className="font-display font-bold text-green-800 block text-base leading-none">Success Home 
+                    Boys Hostel</span>
                   <span className="text-green-600 text-xs font-body tracking-widest uppercase">Hostel</span>
                 </div>
               </div>

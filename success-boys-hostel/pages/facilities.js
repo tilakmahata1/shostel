@@ -9,8 +9,8 @@ export default function Facilities() {
   return (
     <Layout>
       <Head>
-        <title>Facilities & Services — Success Boys Hostel Kathmandu</title>
-        <meta name="description" content="Explore all facilities at Success Boys Hostel — WiFi, meals, security, study room, laundry, and more. Everything a student needs." />
+        <title>Facilities & Services — Success Home Boys Hostel Kathmandu</title>
+        <meta name="description" content="Explore all facilities at Success Home Boys Hostel — WiFi, meals, security, study room, laundry, and more. Everything a student needs." />
       </Head>
 
       <PageHero
@@ -25,7 +25,7 @@ export default function Facilities() {
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center reveal">
             <p className="text-earth font-body text-lg leading-relaxed">
-              At Success Boys Hostel, we believe every student deserves the best possible environment to study
+              At Success Home Boys Hostel, we believe every student deserves the best possible environment to study
               and grow. That's why we have invested in facilities that make daily life easy, comfortable, and
               enjoyable — so you can focus on your education.
             </p>

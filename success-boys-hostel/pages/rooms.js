@@ -83,8 +83,8 @@ export default function Rooms() {
   return (
     <Layout>
       <Head>
-        <title>Rooms — Success Boys Hostel Kathmandu</title>
-        <meta name="description" content="Explore our range of affordable rooms at Success Boys Hostel in Dillibazar, Kathmandu. 2-bed, 4-bed, 6-bed dorms, and private rooms." />
+        <title>Rooms — Success Home Boys Hostel Kathmandu</title>
+        <meta name="description" content="Explore our range of affordable rooms at Success Home Boys Hostel in Dillibazar, Kathmandu. 2-bed, 4-bed, 6-bed dorms, and private rooms." />
       </Head>
 
       <PageHero
@@ -99,7 +99,7 @@ export default function Rooms() {
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center reveal">
             <p className="text-earth font-body text-lg leading-relaxed">
-              Every room at Success Boys Hostel is designed with student needs in mind — quality mattresses,
+              Every room at Success Home Boys Hostel is designed with student needs in mind — quality mattresses,
               adequate storage, good ventilation, and access to all shared facilities. Choose the option that
               fits your budget and lifestyle.
             </p>
@@ -186,9 +186,11 @@ export default function Rooms() {
             <span className="green-badge mb-4 inline-block">All Rooms Include</span>
             <h2 className="section-heading mb-4">Standard Inclusions</h2>
             <p className="section-subheading max-w-xl mx-auto">
-              Every room at Success Boys Hostel includes these essentials at no extra charge.
+              Every room at Success Home Boys Hostel includes these essentials at no extra charge.
             </p>
           </div>
+
+
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[

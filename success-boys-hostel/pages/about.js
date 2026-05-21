@@ -53,12 +53,12 @@ export default function About() {
   return (
     <Layout>
       <Head>
-        <title>About Us — Success Boys Hostel, Dillibazar Kathmandu</title>
-        <meta name="description" content="Learn about Success Boys Hostel — our story, mission, values, and the team behind the best student hostel in Dillibazar, Kathmandu." />
+        <title>About Us — Success Home Boys Hostel, Dillibazar Kathmandu</title>
+        <meta name="description" content="Learn about Success Home Boys Hostel — our story, mission, values, and the team behind the best student hostel in Dillibazar, Kathmandu." />
       </Head>
 
       <PageHero
-        title="About Success Boys Hostel"
+        title="About Success Home Boys Hostel"
         subtitle="A story built on care, community, and a commitment to student success."
         image="/fronthostel.jpg"
         breadcrumb="About"
@@ -76,7 +76,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-earth font-body leading-relaxed">
                 <p>
-                  Success Boys Hostel was founded with a simple but powerful mission: to provide students
+                  Success Home Boys Hostel was founded with a simple but powerful mission: to provide students
                   coming from outside the Kathmandu Valley with a safe, clean, and affordable place to
                   stay while they pursue their dreams through education.
                 </p>
@@ -91,7 +91,7 @@ export default function About() {
                   respected student hostels — all while keeping our family-like atmosphere intact.
                 </p>
                 <p>
-                  Today, over 100 students call Success Boys Hostel their home. We are proud of every
+                  Today, over 1000 students call Success Home Boys Hostel their home. We are proud of every
                   success story that started within our walls.
                 </p>
               </div>
@@ -114,7 +114,7 @@ export default function About() {
                 <div className="relative h-[480px] rounded-3xl overflow-hidden shadow-card-hover">
                   <Image
                     src="/outdoor2.jpg"
-                    alt="Students studying at Success Boys Hostel"
+                    alt="Students studying at Success Home Boys Hostel"
                     fill
                     sizes='100vw'
                     className="object-cover"
@@ -126,7 +126,7 @@ export default function About() {
                   <p className="text-earth text-sm font-body">of serving students</p>
                 </div>
                 <div className="absolute -top-5 -right-5 bg-green-600 rounded-2xl p-5 shadow-green text-white">
-                  <p className="font-display font-bold text-3xl">100+</p>
+                  <p className="font-display font-bold text-3xl">1000+</p>
                   <p className="text-green-200 text-sm font-body">happy residents</p>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export default function About() {
             <span className="green-badge mb-4 inline-block">Our Values</span>
             <h2 className="section-heading mb-4">What We Stand For</h2>
             <p className="section-subheading max-w-xl mx-auto">
-              Four core values guide everything we do at Success Boys Hostel.
+              Four core values guide everything we do at Success Home Boys Hostel.
             </p>
           </div>
 
@@ -187,7 +187,7 @@ export default function About() {
         <div className="container-custom">
           <div className="text-center mb-14 reveal">
             <span className="green-badge mb-4 inline-block">Our Team</span>
-            <h2 className="section-heading mb-4">The People Behind Success Boys</h2>
+            <h2 className="section-heading mb-4">The People Behind Success Home Boys</h2>
             <p className="section-subheading max-w-xl mx-auto">
               A dedicated team that works tirelessly to make your stay comfortable, safe, and memorable.
             </p>
