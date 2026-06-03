@@ -480,7 +480,7 @@ export default function Contact() {
     </p>
 
     <a
-      href="https://wa.me/9779825487923"
+      href="https://wa.me/9779863645825"
       target="_blank"
       rel="noopener noreferrer"
       className="text-green-600 font-body text-sm hover:underline block mt-0.5"

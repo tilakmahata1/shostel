@@ -122,7 +122,7 @@ export default function About() {
                 </div>
                 {/* Floating stats */}
                 <div className="absolute -bottom-5 -left-5 bg-white rounded-2xl p-5 shadow-card">
-                  <p className="font-display font-bold text-green-700 text-3xl">5+ Years</p>
+                  <p className="font-display font-bold text-green-700 text-3xl">10+ Years</p>
                   <p className="text-earth text-sm font-body">of serving students</p>
                 </div>
                 <div className="absolute -top-5 -right-5 bg-green-600 rounded-2xl p-5 shadow-green text-white">
